@@ -58,7 +58,8 @@ Number of datapoints available by country;
         5454    6651    3320   26564    4545    5656    8282 
      
 ## Basic ggplot type;
- 
+>Check the tool is working correctly by typing,
+
      gghmd(hmd_pop)  
      
  ![hmd](https://cloud.githubusercontent.com/assets/16385390/20598873/83bf00a4-b24b-11e6-9a31-a420c648f261.png)
