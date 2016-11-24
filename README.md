@@ -70,13 +70,25 @@ being used. Note that you can use any function that the `gghmd_loc` or `gghmd_yr
 layers accept, and additional ggplot layers will be passed to base layers, such as `facet_wrap(~country)`
 and `Year` in the following example. 
 
+## gghmd_loc() function;
+
     gghmd_loc(hmd_pop,'USA',1930,2000)
     
 ![hmd_loc](https://cloud.githubusercontent.com/assets/16385390/20599040/5f27084e-b24c-11e6-9c1f-202c85d4ea10.png)
 
+## gghmd_yr() function;
+
     gghmd_yr(hmd_pop,1940,2000)
     
 ![hmd_yr](https://cloud.githubusercontent.com/assets/16385390/20598970/faa1abc2-b24b-11e6-9141-fb381fa97274.png)
+
+## gghmd_yr() function;
+
+    gghmd_map(hmd_pop,1980,2010,10,30) 
+    
+![gghmd_map](https://cloud.githubusercontent.com/assets/16385390/20610491/d650b908-b29a-11e6-9bfb-f1d59e32619d.png)
+
+
 
 rawData
 -----
