@@ -3,6 +3,7 @@ hmdR- Use  the "Human Mortality Population Database"  and more ggplot2 enhanceme
 
 > *Copyright 2016 [Ramanathan Perumal](http://github.com/ramamet). Licensed under
 > the MIT license.*
+:smile:
 
 Installation
 ------------
