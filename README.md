@@ -5,10 +5,8 @@ hmdR- Use  the "Human Mortality Population Database"  and more ggplot2 enhanceme
 > the MIT license.*
 :snowflake::snowman:
 
-Installation 
+Installation :computer::inbox_tray::books:
 ------------
-:computer::inbox_tray::books:
-
 `hmdR` is available through GitHub.
 
 To install the latest version from GitHub:
@@ -17,9 +15,8 @@ To install the latest version from GitHub:
     devtools::install_github("ramamet/hmdR")
     
 
-Usage
+Usage :office::wrench::card_index:
 -----
-:office::wrench::card_index:
 
 We'll first load the package, and then see how all the
 functions work.
@@ -60,8 +57,9 @@ Number of datapoints available by country;
          RUS     SVK     SVN     SWE     TWN     UKR     USA 
         5454    6651    3320   26564    4545    5656    8282 
      
-## Basic ggplot type;
-:milky_way:
+Basic ggplot type;   :milky_way:
+-----
+
 >Check the tool is working correctly by typing,
 
      gghmd(hmd_pop)  
@@ -74,16 +72,17 @@ layers accept, and additional ggplot layers will be passed to base layers, such 
 and `Year` in the following example. 
 
 
-## gghmd_map() function;
-:earth_africa::earth_americas::earth_asia:
+gghmd_map() function;   :earth_africa::earth_americas::earth_asia:
+-----
+
 >gghmd_map(hmd_pop,yrMin,yrMax,yrDiv,aAge) format
    
      gghmd_map(hmd_pop,1980,2010,10,30) 
     
 ![gghmd_map](https://cloud.githubusercontent.com/assets/16385390/20610491/d650b908-b29a-11e6-9bfb-f1d59e32619d.png)
 
-## gghmd_yr() function;
-:calendar:
+gghmd_yr() function; :date:
+-----
 >gghmd_yr(hmd_pop,yrMin,yrMax) format
   
     gghmd_yr(hmd_pop,1940,2000)
@@ -91,8 +90,8 @@ and `Year` in the following example.
 ![hmd_yr](https://cloud.githubusercontent.com/assets/16385390/20598970/faa1abc2-b24b-11e6-9141-fb381fa97274.png)
 
 
-## gghmd_time() function;
-:chart::chart_with_upwards_trend:
+gghmd_time() function;   :chart::chart_with_upwards_trend:
+-----
 >gghmd_time(hmd_pop,yrMin,yrMax) format
 
       gghmd_time(hmd_pop,1970,2000)
@@ -100,8 +99,9 @@ and `Year` in the following example.
 ![gghmd_time](https://cloud.githubusercontent.com/assets/16385390/20610608/390ad3d4-b29c-11e6-98d8-3c45ad77a658.png)
 
 
-## gghmd_bar() function;
-:bar_chart:
+gghmd_bar() function;   :bar_chart: 
+-----
+
 >gghmd_bar(hmd_pop,country,ageMin,ageMax,yrMin,yrMax) format
 
     gghmd_bar(hmd_pop,"USA",80,90,1970,2000)
@@ -109,8 +109,9 @@ and `Year` in the following example.
 ![gghmd_bar](https://cloud.githubusercontent.com/assets/16385390/20610539/65765e9e-b29b-11e6-9b9f-3570a31beb88.png)
 
 
-## gghmd_loc() function;
-:rainbow::mag:
+gghmd_loc() function;    :rainbow::mag:
+-----
+
 >gghmd_loc(hmd_pop,country,yrMin,yrMax) format
 
     gghmd_loc(hmd_pop,'USA',1930,2000)
