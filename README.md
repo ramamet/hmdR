@@ -20,11 +20,9 @@ Usage
 
 We'll first load the package, and then see how all the
 functions work.
-
    
     library("hmdR")
-  
-  
+    
 As a simple first example, let's load a `hmd_pop` dataset with 453927 rows and 10 columns where
 the Year values are recorded time periods and the Age values are classified from 0-100 years
 , and plot a simple ggplot2 scatterplot.
@@ -72,8 +70,9 @@ and `Year` in the following example.
 
 
 ## gghmd_map() function;
-    #gghmd_map(hmd_pop,yrMin,yrMax,yrDiv,aAge) format
-    gghmd_map(hmd_pop,1980,2010,10,30) 
+>gghmd_map(hmd_pop,yrMin,yrMax,yrDiv,aAge) format
+   
+     gghmd_map(hmd_pop,1980,2010,10,30) 
     
 ![gghmd_map](https://cloud.githubusercontent.com/assets/16385390/20610491/d650b908-b29a-11e6-9bfb-f1d59e32619d.png)
 
@@ -111,4 +110,4 @@ National Center for Health Statistics. Vital Statistics of the United States, Vo
 
 @
 -----
-For further development or bugs in the package, please contact me by `ramamet4@gmail.com`.    
+If you like to contribute further on this package or bugs, please respond me by `ramamet4@gmail.com`.    
