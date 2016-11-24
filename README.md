@@ -21,10 +21,10 @@ Usage
 We'll first load the package, and then see how all the
 functions work.
 
-    suppressPackageStartupMessages({
+   
     library("hmdR")
-    })    
-    
+  
+  
 As a simple first example, let's load a `hmd_pop` dataset with 453927 rows and 10 columns where
 the Year values are recorded time periods and the Age values are classified from 0-100 years
 , and plot a simple ggplot2 scatterplot.
@@ -70,11 +70,12 @@ being used. Note that you can use any function that the `gghmd_loc` or `gghmd_yr
 layers accept, and additional ggplot layers will be passed to base layers, such as `facet_wrap(~country)`
 and `Year` in the following example. 
 
-## gghmd_loc() function;
 
-    gghmd_loc(hmd_pop,'USA',1930,2000)
+## gghmd_map() function;
+    #gghmd_map(hmd_pop,yrMin,yrMax,yrDiv,aAge) format
+    gghmd_map(hmd_pop,1980,2010,10,30) 
     
-![hmd_loc](https://cloud.githubusercontent.com/assets/16385390/20599040/5f27084e-b24c-11e6-9c1f-202c85d4ea10.png)
+![gghmd_map](https://cloud.githubusercontent.com/assets/16385390/20610491/d650b908-b29a-11e6-9bfb-f1d59e32619d.png)
 
 ## gghmd_yr() function;
 
@@ -82,13 +83,8 @@ and `Year` in the following example.
     
 ![hmd_yr](https://cloud.githubusercontent.com/assets/16385390/20598970/faa1abc2-b24b-11e6-9141-fb381fa97274.png)
 
-## gghmd_map() function;
 
-    gghmd_map(hmd_pop,1980,2010,10,30) 
-    
-![gghmd_map](https://cloud.githubusercontent.com/assets/16385390/20610491/d650b908-b29a-11e6-9bfb-f1d59e32619d.png)
-
-## gghmd_map() function;
+## gghmd_time() function;
 
       gghmd_time(hmd_pop,1970,2000)
     
@@ -100,6 +96,13 @@ and `Year` in the following example.
     gghmd_bar(hmd_pop,"USA",80,90,1970,2000)
 
 ![gghmd_bar](https://cloud.githubusercontent.com/assets/16385390/20610539/65765e9e-b29b-11e6-9b9f-3570a31beb88.png)
+
+
+## gghmd_loc() function;
+
+    gghmd_loc(hmd_pop,'USA',1930,2000)
+    
+![hmd_loc](https://cloud.githubusercontent.com/assets/16385390/20599040/5f27084e-b24c-11e6-9c1f-202c85d4ea10.png)
 
 
 rawData
