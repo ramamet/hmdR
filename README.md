@@ -59,7 +59,7 @@ Number of datapoints available by country;
          RUS     SVK     SVN     SWE     TWN     UKR     USA 
         5454    6651    3320   26564    4545    5656    8282 
      
-Basic ggplot type plots,
+## Basic ggplot type;
  
      gghmd(hmd_pop)  
      
