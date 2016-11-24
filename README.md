@@ -118,11 +118,10 @@ and `Year` in the following example.
 ![hmd_loc](https://cloud.githubusercontent.com/assets/16385390/20599040/5f27084e-b24c-11e6-9c1f-202c85d4ea10.png)
 
 
-rawData 
+rawData :hospital::ledger::clipboard:
 -----
-     :hospital::ledger::clipboard:
 National Center for Health Statistics. Vital Statistics of the United States, Volume II: Mortality, Part A. Washington, D.C.: Government Printing Office, various years. (Data obtained through the Human Mortality Database, www.mortality.org or www.humanmortality.de, on [date].)
 
-:mailbox:
+:mailbox::package:
 -----
 If you like to contribute further on this package or bugs, please respond me by `ramamet4@gmail.com`.    
