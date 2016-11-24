@@ -92,7 +92,7 @@ and `Year` in the following example.
 
 
 ## gghmd_time() function;
-:alarm_clock:
+:chart::chart_with_upwards_trend:
 >gghmd_time(hmd_pop,yrMin,yrMax) format
 
       gghmd_time(hmd_pop,1970,2000)
@@ -110,7 +110,7 @@ and `Year` in the following example.
 
 
 ## gghmd_loc() function;
-:chart_with_upwards_trend:
+:rainbow::mag:
 >gghmd_loc(hmd_pop,country,yrMin,yrMax) format
 
     gghmd_loc(hmd_pop,'USA',1930,2000)
