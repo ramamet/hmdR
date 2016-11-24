@@ -109,9 +109,9 @@ and `Year` in the following example.
 ![gghmd_bar](https://cloud.githubusercontent.com/assets/16385390/20610539/65765e9e-b29b-11e6-9b9f-3570a31beb88.png)
 
 
-## gghmd_time() function;
+## gghmd_loc() function;
 :chart_with_upwards_trend:
->gghmd_time(hmd_pop,country,yrMin,yrMax) format
+>gghmd_loc(hmd_pop,country,yrMin,yrMax) format
 
     gghmd_loc(hmd_pop,'USA',1930,2000)
     
