@@ -3,10 +3,11 @@ hmdR- Use  the "Human Mortality Population Database"  and more ggplot2 enhanceme
 
 > *Copyright 2016 [Ramanathan Perumal](http://github.com/ramamet). Licensed under
 > the MIT license.*
-:smile:
+:snowflake::snowman:
 
-Installation
+Installation 
 ------------
+:computer::inbox_tray::books:
 
 `hmdR` is available through GitHub.
 
@@ -18,6 +19,7 @@ To install the latest version from GitHub:
 
 Usage
 -----
+:office::hotsprings::airplane:
 
 We'll first load the package, and then see how all the
 functions work.
@@ -59,6 +61,7 @@ Number of datapoints available by country;
         5454    6651    3320   26564    4545    5656    8282 
      
 ## Basic ggplot type;
+:milky_way:
 >Check the tool is working correctly by typing,
 
      gghmd(hmd_pop)  
@@ -72,6 +75,7 @@ and `Year` in the following example.
 
 
 ## gghmd_map() function;
+:earth_africa::earth_americas::earth_asia:
 >gghmd_map(hmd_pop,yrMin,yrMax,yrDiv,aAge) format
    
      gghmd_map(hmd_pop,1980,2010,10,30) 
@@ -79,6 +83,7 @@ and `Year` in the following example.
 ![gghmd_map](https://cloud.githubusercontent.com/assets/16385390/20610491/d650b908-b29a-11e6-9bfb-f1d59e32619d.png)
 
 ## gghmd_yr() function;
+:calendar:
 >gghmd_yr(hmd_pop,yrMin,yrMax) format
   
     gghmd_yr(hmd_pop,1940,2000)
@@ -87,6 +92,7 @@ and `Year` in the following example.
 
 
 ## gghmd_time() function;
+:alarm_clock:
 >gghmd_time(hmd_pop,yrMin,yrMax) format
 
       gghmd_time(hmd_pop,1970,2000)
@@ -95,6 +101,7 @@ and `Year` in the following example.
 
 
 ## gghmd_bar() function;
+:bar_chart:
 >gghmd_bar(hmd_pop,country,ageMin,ageMax,yrMin,yrMax) format
 
     gghmd_bar(hmd_pop,"USA",80,90,1970,2000)
@@ -102,7 +109,8 @@ and `Year` in the following example.
 ![gghmd_bar](https://cloud.githubusercontent.com/assets/16385390/20610539/65765e9e-b29b-11e6-9b9f-3570a31beb88.png)
 
 
-## gghmd_loc() function;
+## gghmd_time() function;
+:chart_with_upwards_trend:
 >gghmd_time(hmd_pop,country,yrMin,yrMax) format
 
     gghmd_loc(hmd_pop,'USA',1930,2000)
@@ -110,10 +118,11 @@ and `Year` in the following example.
 ![hmd_loc](https://cloud.githubusercontent.com/assets/16385390/20599040/5f27084e-b24c-11e6-9c1f-202c85d4ea10.png)
 
 
-rawData
+rawData 
 -----
+:hospital::ledger::clipboard:
 National Center for Health Statistics. Vital Statistics of the United States, Volume II: Mortality, Part A. Washington, D.C.: Government Printing Office, various years. (Data obtained through the Human Mortality Database, www.mortality.org or www.humanmortality.de, on [date].)
 
-@
+:mailbox:
 -----
 If you like to contribute further on this package or bugs, please respond me by `ramamet4@gmail.com`.    
