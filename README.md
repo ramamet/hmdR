@@ -122,6 +122,6 @@ rawData :hospital::ledger::clipboard:
 -----
 National Center for Health Statistics. Vital Statistics of the United States, Volume II: Mortality, Part A. Washington, D.C.: Government Printing Office, various years. (Data obtained through the Human Mortality Database, www.mortality.org or www.humanmortality.de, on [date].)
 
-:mailbox::package:
+contact :mailbox::package:
 -----
 If you like to contribute further on this package or bugs, please respond me by `ramamet4@gmail.com`.    
