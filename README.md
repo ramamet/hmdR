@@ -19,7 +19,7 @@ To install the latest version from GitHub:
 
 Usage
 -----
-:office::hotsprings::airplane:
+:office::wrench::card_index:
 
 We'll first load the package, and then see how all the
 functions work.
@@ -120,7 +120,7 @@ and `Year` in the following example.
 
 rawData 
 -----
-:hospital::ledger::clipboard:
+>:hospital::ledger::clipboard:
 National Center for Health Statistics. Vital Statistics of the United States, Volume II: Mortality, Part A. Washington, D.C.: Government Printing Office, various years. (Data obtained through the Human Mortality Database, www.mortality.org or www.humanmortality.de, on [date].)
 
 :mailbox:
