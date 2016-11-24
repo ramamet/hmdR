@@ -77,13 +77,15 @@ and `Year` in the following example.
 ![gghmd_map](https://cloud.githubusercontent.com/assets/16385390/20610491/d650b908-b29a-11e6-9bfb-f1d59e32619d.png)
 
 ## gghmd_yr() function;
-
+>gghmd_yr(hmd_pop,yrMin,yrMax) format
+  
     gghmd_yr(hmd_pop,1940,2000)
     
 ![hmd_yr](https://cloud.githubusercontent.com/assets/16385390/20598970/faa1abc2-b24b-11e6-9141-fb381fa97274.png)
 
 
 ## gghmd_time() function;
+>gghmd_time(hmd_pop,yrMin,yrMax) format
 
       gghmd_time(hmd_pop,1970,2000)
     
@@ -91,6 +93,7 @@ and `Year` in the following example.
 
 
 ## gghmd_bar() function;
+>gghmd_bar(hmd_pop,country,ageMin,ageMax,yrMin,yrMax) format
 
     gghmd_bar(hmd_pop,"USA",80,90,1970,2000)
 
@@ -98,6 +101,7 @@ and `Year` in the following example.
 
 
 ## gghmd_loc() function;
+>gghmd_time(hmd_pop,country,yrMin,yrMax) format
 
     gghmd_loc(hmd_pop,'USA',1930,2000)
     
