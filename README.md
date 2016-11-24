@@ -60,7 +60,7 @@ Number of datapoints available by country;
 Basic ggplot type;   :milky_way:
 -----
 
->Check the tool is working correctly by typing,
+>Checking the tool with initial test,
 
      gghmd(hmd_pop)  
      
