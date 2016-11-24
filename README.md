@@ -82,12 +82,24 @@ and `Year` in the following example.
     
 ![hmd_yr](https://cloud.githubusercontent.com/assets/16385390/20598970/faa1abc2-b24b-11e6-9141-fb381fa97274.png)
 
-## gghmd_yr() function;
+## gghmd_map() function;
 
     gghmd_map(hmd_pop,1980,2010,10,30) 
     
 ![gghmd_map](https://cloud.githubusercontent.com/assets/16385390/20610491/d650b908-b29a-11e6-9bfb-f1d59e32619d.png)
 
+## gghmd_map() function;
+
+      gghmd_time(hmd_pop,1970,2000)
+    
+![gghmd_time](https://cloud.githubusercontent.com/assets/16385390/20610608/390ad3d4-b29c-11e6-98d8-3c45ad77a658.png)
+
+
+## gghmd_bar() function;
+
+    gghmd_bar(hmd_pop,"USA",80,90,1970,2000)
+
+![gghmd_bar](https://cloud.githubusercontent.com/assets/16385390/20610539/65765e9e-b29b-11e6-9b9f-3570a31beb88.png)
 
 
 rawData
